@@ -310,4 +310,9 @@ if __name__ == '__main__':
     elif algorithm == "bug2":
         bug = Bug2(tx, ty)
 
-    bug_algorithm(bug)
+    try:
+        bug_algorithm(bug)
+    except rospy.exceptions.ROSInterruptException:
+        pass
+    except KeyboardInterrupt:
+        pass
