@@ -4,7 +4,7 @@ Bug Algorithms for ROS
 Dependencies:
 -------------
 
-- None
+- [agn_gazebo](https://github.com/agn-7/agn_gazebo)
 
 Running:
 --------
