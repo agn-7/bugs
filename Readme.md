@@ -6,14 +6,20 @@ Dependencies:
 
 - [agn_gazebo](https://github.com/agn-7/agn_gazebo)
 
+![default_gzclient_camera(1)-2019-05-30T15_22_49 379103](https://user-images.githubusercontent.com/14202344/58628547-3638d680-82ef-11e9-91a0-3ee7d6ac8893.jpg "Ready to wall following or goto x,y scenario")
+
 Running:
 --------
+Gazebo should be running before the bug program is deployed:
+```
+roslaunch agn_gazebo pioneer.launch
+```
 
-`rosrun bugs bug.py bug[0|1|2] destX destY`
-
+Run bug algorithm:
+```
+rosrun bugs bug.py bug[0|1|2] destX destY
+```
 where 0, 1, or 2 is the bug algorithm of interest.
-
-Stage should be running before the bug program is deployed.
 
 Known bugs:
 -----------
