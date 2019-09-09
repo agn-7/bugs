@@ -1,6 +1,7 @@
 # Pythonic and Pycharm IDE
 *.pyc
 ./idea
+idea/
 
 #CMake temp
 CMakeLists.txt.user
